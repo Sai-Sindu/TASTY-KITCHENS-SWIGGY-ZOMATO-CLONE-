@@ -1,0 +1,8 @@
+.loader-carousel-container {
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

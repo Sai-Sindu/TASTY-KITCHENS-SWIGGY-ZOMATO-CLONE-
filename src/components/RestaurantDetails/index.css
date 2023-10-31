@@ -1,0 +1,239 @@
+.container {
+  min-height: 90vh;
+}
+
+.restaurant-details-container {
+  min-height: 90vh;
+}
+
+.restaurant-detail-card {
+  background-image: url('https://res.cloudinary.com/dtsiavvsu/image/upload/v1698505809/Frame_279_rxxdya.png');
+  width: 100%;
+  background-size: cover;
+  margin-left: 0;
+  height: 375px;
+  margin-top: 30px;
+}
+
+.image-description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 280px;
+}
+
+.image-card {
+  width: 445px;
+  height: 280px;
+  margin-top: 76px;
+  margin-left: 165px;
+  border-radius: 8px;
+}
+
+.description-card {
+  width: 320px;
+  height: 168px;
+  margin-left: 30px;
+}
+
+.restaurant-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.restaurant-cuisine {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.restaurant-location {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rating-cost-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.rating-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rating-card-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.restaurant-rating {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.restaurant-reviews-count {
+  font-family: 'DM Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e2e8f0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rating-cost-separator {
+  border: 1px solid #e2e8f0;
+  height: 46px;
+  margin: 10px 20px 0px 20px;
+}
+
+.cost-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.cost-for-two {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cost-for-two-text {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e2e8f0;
+}
+
+.food-items-list-container {
+  list-style-type: none;
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-details-card {
+    height: 188px;
+  }
+
+  .image-card {
+    width: 291px;
+    height: 281px;
+    margin-top: 0;
+    margin-left: -68px;
+    border-bottom-right-radius: 143.98px;
+    border-top-right-radius: 143.98px;
+    border-bottom-left-radius: 143.98px;
+    background-size: cover;
+  }
+
+  .description-card {
+    width: 205px;
+    height: 124px;
+    margin-left: 30px;
+  }
+
+  .restaurant-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+  }
+
+  .restaurant-cuisine {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .restaurant-location {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .restaurant-rating {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  .cost-card {
+    margin-top: 25px;
+  }
+
+  .cost-for-two {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 0;
+  }
+  .food-items-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
